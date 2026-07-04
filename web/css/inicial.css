@@ -1,0 +1,90 @@
+body {
+  max-width: 100%;
+  /* Define duas imagens de fundo*/
+  background-image: url("../img/gato_inicio2.jpg");
+  /* Posição: esquerda (top left) e direita (top right)*/
+  background-position: right top;
+  /* Tamanho: imagem esquerda 50% largura (não repete), imagem direita 50% largura (não repete)*/
+  background-size: 1110px 1100px;
+  /* Não repete as imagens*/
+
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-rows: 200px 500px 150px;
+}
+
+.menu {
+  display: flex;
+  flex: wrap;
+  justify-content: space-between;
+align-items: end;
+
+}
+.menu li {
+  display: inline-block;
+  }
+
+.menu a {
+
+  text-decoration: none;
+  list-style: none;
+  font-family: Nunito, Arial, Helvetica, sans-serif;
+  color:  #4a675a;
+  font-weight: 800;
+  padding: 50px;    
+}
+
+.menu-logo {
+  padding-left: 120px;
+ }
+
+.introducao-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 480px 50px 50px;
+  padding-left: 120px;
+  padding-right: 1000px;
+  align-content: center;
+}
+
+.introducao-container img {
+  width: 1200px;
+  height: 1200px;
+}
+.introducao h1 {
+  font-family: Nunito, Arial, Helvetica, sans-serif;
+  font-size: 35px;
+}
+
+.p1,
+.p2 {
+  font-family: Catamaran, Arial, Helvetica, sans-serif;
+  padding-bottom: 40px;
+  padding-top: 50px;
+}
+
+.botao-inicial {
+  background-color: #4a675a;
+  width: 250px;
+  padding: 15px;
+  border-radius: 4px;
+  color: white;
+  border: #4a675a;
+  font-family: Catamaran, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.contato {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 78px;
+  padding-top: 80px;
+}
+
+.contato-itens ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  gap: 100px;
+}
