@@ -1,3 +1,15 @@
 body {
   background: #eef1f0;
+  overflow-y: hidden; /* retira a barra de rolagem vertical*/
+  max-width: 100%;
+}
+.container {
+  display: grid;
+  justify-content: center;
+  height: 100vh; /* Garante que o grid ocupe toda a altura da tela */
+  /* 12 colunas iguais distribuindo o espaço restante */
+  grid-template-columns: repeat(10, 135px);
+  gap: 10px;
+  grid-template-rows: repeat(5, 165px);
+  /* Centraliza o layout na tela do navegador */
 }

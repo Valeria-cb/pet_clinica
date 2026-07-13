@@ -1,50 +1,51 @@
 body {
-  max-width: 100%;
-  /* Define duas imagens de fundo*/
-  background-image: url("../img/gato_inicio2.jpg");
-  /* Posição: esquerda (top left) e direita (top right)*/
-  background-position: right top;
-  /* Tamanho: imagem esquerda 50% largura (não repete), imagem direita 50% largura (não repete)*/
-  background-size: 1110px 1100px;
+  background-image: url("../img/gatoinicio3.svg");
+  background-position: 945px 0px;
+  background-size: 1440px 1040;
   /* Não repete as imagens*/
-
   background-repeat: no-repeat;
-  display: grid;
-  grid-template-rows: 200px 500px 150px;
 }
 
-.menu {
+header {
   display: flex;
-  flex: wrap;
+  flex-flow: row;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
   justify-content: space-between;
-align-items: end;
-
+  grid-column: 2;
+  height: 60px;
+  width: 1200px;
 }
-.menu li {
+
+.menu-nav ul {
+  display: flex;
+  gap: 60px;
+}
+
+.menu-nav li {
   display: inline-block;
-  }
+}
 
-.menu a {
-
+.menu-nav a {
   text-decoration: none;
   list-style: none;
   font-family: Nunito, Arial, Helvetica, sans-serif;
-  color:  #4a675a;
+  color: #2F4330;
   font-weight: 800;
-  padding: 50px;    
+  padding-left: 10px;
+  padding-right: 10px;
 }
-
-.menu-logo {
-  padding-left: 120px;
- }
 
 .introducao-container {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 480px 50px 50px;
-  padding-left: 120px;
-  padding-right: 1000px;
+  grid-template-columns: 425px;
+  grid-template-rows: 300px 50px 50px;
+  padding-left: 145px;
+  padding-top: 200px;
   align-content: center;
+  grid-column: 1;
+  grid-row: 2;
 }
 
 .introducao-container img {
@@ -53,38 +54,59 @@ align-items: end;
 }
 .introducao h1 {
   font-family: Nunito, Arial, Helvetica, sans-serif;
-  font-size: 35px;
+  font-size: 37px;
+  color: #3E3E3E;
 }
 
 .p1,
 .p2 {
   font-family: Catamaran, Arial, Helvetica, sans-serif;
-  padding-bottom: 40px;
-  padding-top: 50px;
+  font-size: 14.5px;
+  padding-bottom: 50px;
+  color: #7A7A7A;
+  
+}
+
+.p2 {
+  padding-top: 60px;
 }
 
 .botao-inicial {
   background-color: #4a675a;
   width: 250px;
-  padding: 15px;
+  padding: 8px;
   border-radius: 4px;
   color: white;
-  border: #4a675a;
+  border: #2F4330;
   font-family: Catamaran, Arial, Helvetica, sans-serif;
   font-size: 15px;
 }
 
 .contato {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  padding-left: 78px;
-  padding-top: 80px;
+  flex-flow: row;
+  width: 600px;
+  height: 40px;
+  grid-row: 5;
+  padding-top: 170px;
+  padding-left: 105px;      
+  justify-content: space-between;
 }
 
 .contato-itens ul {
   display: flex;
-  list-style-type: none;
+  list-style-type: none;  
+}
+.contato-itens li {
+  font-family: Catamaran, Arial, Helvetica, sans-serif;
+  font-size: 15px;  
+  }
+
+.contato-itens ul a {
+  text-decoration: none;
+  font-family: Catamaran, Arial, Helvetica, sans-serif;
   align-items: center;
-  gap: 100px;
+  padding-left: 5px;
+  padding-right: 50px;
+  color: #7A7A7A;
 }
