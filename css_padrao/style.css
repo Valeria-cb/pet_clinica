@@ -1,0 +1,8 @@
+/*Global*/
+@import url("../css_padrao/global.css");
+
+/*Inicio*/
+@import url("../01_inicio/web/css/inicial.css");
+
+/*Pagina PET*/
+@import url("../02_pet/web/css/pet.css");

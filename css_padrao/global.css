@@ -1,0 +1,51 @@
+body {
+  background: #eef1f0;
+  overflow-y: hidden; /* retira a barra de rolagem vertical*/
+  max-width: 100%;
+}
+
+.menu-logo {
+  margin-left: 25px;
+  grid-column: 2;
+  position: absolute;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  height: 100vh; /* Garante que o grid ocupe toda a altura da tela */
+  /* 12 colunas iguais distribuindo o espaço restante */
+  grid-template-columns: repeat(10, 135px);
+  gap: 10px;
+  grid-template-rows: repeat(5, 165px);
+  /* Centraliza o layout na tela do navegador */
+  position: relative;
+}
+
+/*Linha de progresso*/
+
+.ind-progresso {
+  position: absolute;
+  padding-left: 150px;
+  padding-top: 70px;
+}
+
+
+.ind-progresso li {
+  display: inline-block;
+  font-family: Nunito, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #3e3e3e;
+}
+
+.ind-progresso ul {
+  display: flex;
+  gap: 170px;
+}
+
+/*ITENS QUE VÃO SE REPETIR DA PAG 2 A 6*/
+/* barra inferior*/
+/*linha de progesso - trocando as imagens */
+/*titulo e subtitulo*/
+
+/*PAGINA 7 REPETE PAGINA 1 SEM ALGUNS ITEN*/
