@@ -4,24 +4,42 @@ body {
   background-repeat: no-repeat;
 }
 
-.container {
-  display: grid;
-  justify-content: center;
-  height: 100vh; /* Garante que o grid ocupe toda a altura da tela */
-  /* 12 colunas iguais distribuindo o espaço restante */
-  grid-template-columns: repeat(10, 135px);
-  gap: 10px;
-  grid-template-rows: repeat(5, 165px);
-  /* Centraliza o layout na tela do navegador */
-}
-
-.menu-logo {
-  padding-left: 120px;
-}
-
-.ind-progresso {
-  display: flex;
-  flex-flow: row;
+.animais {
+  position: absolute;
+  padding-left: 145px;
+  padding-top: 70px;
+  display: flex;    
+  width: 1150px;
   justify-content: space-between;
-  align-items: end;
+  list-style-type: none;
+}
+
+.animais-botao{  
+  position: absolute;
+  padding-left: 145px;
+  padding-top: 180px;
+  display: flex;    
+  width: 1150px;
+  justify-content: space-between;
+  list-style-type: none;  
+}
+
+#cachorro{
+ background-color: #4A675A; 
+}
+
+#gato {
+margin: 0 0 0 15;
+padding: 0 30 0 30;
+background-color: #4A675A;
+}
+#aves {
+margin: 0 0 0 15;
+padding: 0 30 0 30;
+background-color: #4A675A;
+}
+#outros {
+margin: 0 0 0 15;
+padding: 0 20 0 20;
+background-color: #4A675A;
 }

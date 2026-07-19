@@ -4,6 +4,11 @@ body {
   max-width: 100%;
 }
 
+
+.menu-logo {
+  padding-left: 120px;
+}
+
 .menu-logo {
   margin-left: 25px;
   grid-column: 2;
@@ -26,21 +31,101 @@ body {
 
 .ind-progresso {
   position: absolute;
-  padding-left: 150px;
+  padding-left: 145px;
   padding-top: 70px;
+  display: flex;
+  list-style-type: none;
+  flex-flow: row;
+  justify-content: space-between;
+  width: 1150px;
 }
 
+.texto-progresso {
+  width: 1000px;
+  padding-top: 150px;
+  display: flex;
+  flex-flow: row;
+  list-style-type: none;
+}
 
-.ind-progresso li {
-  display: inline-block;
+.texto-progresso li {
+  font-family: Catamaran, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #3e3e3e;
+  padding-top: 8px;
+}
+
+.linha-horizontal1 {
+  position: absolute;
+  height: 0px;
+  border: dotted;
+
+  width: 180px;
+  margin-top: 120px;
+  margin-left: 220px;
+}
+.linha-horizontal2 {
+  position: absolute;
+  border: dotted;
+  width: 180px;
+  margin-top: 120px;
+  margin-left: 490px;
+}
+.linha-horizontal3 {
+  position: absolute;
+  border: dotted;
+  width: 180px;
+  margin-top: 120px;
+  margin-left: 760px;
+}
+.linha-horizontal4 {
+  position: absolute;
+  border: dotted;
+  width: 180px;
+  margin-top: 120px;
+  margin-left: 1035px;
+}
+
+#pet {
+  padding-left: 125px;
+}
+#profissional {
+  padding-left: 238px;
+}
+#agendamento {
+  padding-left: 200px;
+}
+#cadastro {
+  padding-left: 210px;
+}
+#confirmacao {
+  padding-left: 220px;
+}
+
+.texto-central {
+  display: flex;
+  flex-direction: column;
+  width: 1400px;
+  align-items: center;
   font-family: Nunito, Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   color: #3e3e3e;
 }
 
-.ind-progresso ul {
-  display: flex;
-  gap: 170px;
+.texto-central h1 {
+  margin: 0;
+  padding-bottom: 0;
+  padding-top: 80px;
+}
+
+.texto-central h4 {
+  font-family: Nunito, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #3e3e3e;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0;
 }
 
 /*ITENS QUE VÃO SE REPETIR DA PAG 2 A 6*/
