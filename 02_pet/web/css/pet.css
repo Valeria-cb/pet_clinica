@@ -6,17 +6,30 @@ body {
 
 .animais {
   position: absolute;
-  padding-left: 145px;
+  padding-left: 185px;
   padding-top: 70px;
   display: flex;    
   width: 1150px;
   justify-content: space-between;
   list-style-type: none;
+  margin: 0 10 0 0;
 }
 
+#img-aves{
+  margin: 0 0 0 65;
+}
+#img-gato{
+  margin: 0 0 0 50;
+}
+#img-cachorro{
+  margin: 0 0 0 0;
+}
+#img-outros{
+  margin: 0 25 0 0;
+}
 .animais-botao{  
   position: absolute;
-  padding-left: 145px;
+  padding-left: 165px;
   padding-top: 180px;
   display: flex;    
   width: 1150px;
@@ -25,21 +38,43 @@ body {
 }
 
 #cachorro{
- background-color: #4A675A; 
+ background-color: #4A675A;
+ padding:10 30 10 30;
+color: #eef1f0;
+border: 0px;
+border-radius: 5px;
+font-family: Nunito, Arial, Helvetica, sans-serif;
+font-weight: 500; 
 }
 
 #gato {
-margin: 0 0 0 15;
-padding: 0 30 0 30;
+margin: 0 0 0 40;
+padding:10 30 10 30;
 background-color: #4A675A;
+color: #eef1f0;
+border: 0px;
+border-radius: 5px;
+font-family: Nunito, Arial, Helvetica, sans-serif;
+font-weight: 500;
 }
+
 #aves {
-margin: 0 0 0 15;
-padding: 0 30 0 30;
+margin: 0 0 0 70;
+padding:10 30 10 30;
 background-color: #4A675A;
+color: #eef1f0;
+border: 0px;
+border-radius: 5px;
+font-family: Nunito, Arial, Helvetica, sans-serif;
+font-weight: 500;
 }
 #outros {
-margin: 0 0 0 15;
-padding: 0 20 0 20;
+margin: 0 0 0 10;
+padding:10 30 10 30;
 background-color: #4A675A;
+color: #eef1f0;
+border: 0px;
+border-radius: 5px;
+font-family: Nunito, Arial, Helvetica, sans-serif;
+font-weight: 500;
 }

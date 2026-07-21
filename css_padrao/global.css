@@ -4,7 +4,6 @@ body {
   max-width: 100%;
 }
 
-
 .menu-logo {
   padding-left: 120px;
 }
@@ -37,7 +36,7 @@ body {
   list-style-type: none;
   flex-flow: row;
   justify-content: space-between;
-  width: 1150px;
+  width: 1200px;
 }
 
 .texto-progresso {
@@ -59,7 +58,6 @@ body {
   position: absolute;
   height: 0px;
   border: dotted;
-
   width: 180px;
   margin-top: 120px;
   margin-left: 220px;
@@ -126,6 +124,35 @@ body {
   padding-top: 50px;
   padding-bottom: 50px;
   margin: 0;
+}
+
+footer {
+  display: flex;
+  flex-flow: row;
+  width: 1200px;
+  height: 100px;
+  margin-left: 145px;
+  margin-top: 380px;
+  background-color: #4a675a;
+}
+
+#botao-cancelar {
+  margin: 30 960 30 20;
+  padding: 0 10 0 10;
+  border-radius: 5px;
+  border-style: none;
+  font-family: Nunito, Arial, Helvetica, sans-serif;
+  color: #3e3e3e;
+  font-weight: 800;
+}
+#botao-continuar {
+  margin: 30 0 30 0;
+  padding: 0 10 0 10;
+  border-radius: 5px;
+  border-style: none;
+  font-family: Nunito, Arial, Helvetica, sans-serif;
+  color: #3e3e3e;
+  font-weight: 800;
 }
 
 /*ITENS QUE VÃO SE REPETIR DA PAG 2 A 6*/
