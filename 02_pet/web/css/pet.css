@@ -4,77 +4,87 @@ body {
   background-repeat: no-repeat;
 }
 
+/*Conteudo especifico da página 02 - Section*/
+.conteudo-central {
+  position: absolute;
+  display: flex;
+  flex-flow: row;
+  width: 1400px;
+  margin: 0 0 0 0;
+  margin: 400px 185px;
+}
 .animais {
   position: absolute;
   padding-left: 185px;
   padding-top: 70px;
-  display: flex;    
+  display: flex;
   width: 1150px;
   justify-content: space-between;
   list-style-type: none;
   margin: 0 10 0 0;
 }
 
-#img-aves{
+#img-aves {
   margin: 0 0 0 65;
 }
-#img-gato{
+#img-gato {
   margin: 0 0 0 50;
 }
-#img-cachorro{
+#img-cachorro {
   margin: 0 0 0 0;
 }
-#img-outros{
+#img-outros {
   margin: 0 25 0 0;
 }
-.animais-botao{  
+.animais-botao {
   position: absolute;
   padding-left: 165px;
   padding-top: 180px;
-  display: flex;    
+  display: flex;
   width: 1150px;
   justify-content: space-between;
-  list-style-type: none;  
+  list-style-type: none;
 }
 
-#cachorro{
- background-color: #4A675A;
- padding:10 30 10 30;
-color: #eef1f0;
-border: 0px;
-border-radius: 5px;
-font-family: Nunito, Arial, Helvetica, sans-serif;
-font-weight: 500; 
+#cachorro {
+  background-color: #4a675a;
+  padding: 10 30 10 30;
+  color: #eef1f0;
+  border: 0px;
+  border-radius: 5px;
+  font-family: Nunito, Arial, Helvetica, sans-serif;
+  font-weight: 500;
 }
 
 #gato {
-margin: 0 0 0 40;
-padding:10 30 10 30;
-background-color: #4A675A;
-color: #eef1f0;
-border: 0px;
-border-radius: 5px;
-font-family: Nunito, Arial, Helvetica, sans-serif;
-font-weight: 500;
+  margin: 0 0 0 40;
+  padding: 10 30 10 30;
+  background-color: #4a675a;
+  color: #eef1f0;
+  border: 0px;
+  border-radius: 5px;
+  font-family: Nunito, Arial, Helvetica, sans-serif;
+  font-weight: 500;
 }
 
 #aves {
-margin: 0 0 0 70;
-padding:10 30 10 30;
-background-color: #4A675A;
-color: #eef1f0;
-border: 0px;
-border-radius: 5px;
-font-family: Nunito, Arial, Helvetica, sans-serif;
-font-weight: 500;
+  margin: 0 0 0 70;
+  padding: 10 30 10 30;
+  background-color: #4a675a;
+  color: #eef1f0;
+  border: 0px;
+  border-radius: 5px;
+  font-family: Nunito, Arial, Helvetica, sans-serif;
+  font-weight: 500;
 }
 #outros {
-margin: 0 0 0 10;
-padding:10 30 10 30;
-background-color: #4A675A;
-color: #eef1f0;
-border: 0px;
-border-radius: 5px;
-font-family: Nunito, Arial, Helvetica, sans-serif;
-font-weight: 500;
+  margin: 0 0 0 10;
+  padding: 10 30 10 30;
+  background-color: #4a675a;
+  color: #eef1f0;
+  border: 0px;
+  border-radius: 5px;
+  font-family: Nunito, Arial, Helvetica, sans-serif;
+  font-weight: 500;
 }
+/*------------------------------*/
