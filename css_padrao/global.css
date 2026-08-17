@@ -1,7 +1,7 @@
 body {
-  background: #eef1f0;  
+  background: #eef1f0;
   overflow-y: hidden; /* retira a barra de rolagem vertical*/
-  max-width: 100%;
+  max-width: 100%;    
 }
 
 .menu-logo {
@@ -29,77 +29,33 @@ body {
 
 /*Linha de progresso - Header*/
 
+.progresso{
+  display: flex;
+  flex-wrap: wrap;
+  width: 716px;
+}
+
 .ind-progresso {
   position: absolute;
-  padding-left: 145px;
+  padding-left: 160px;
   padding-top: 70px;
   display: flex;
   list-style-type: none;
   flex-flow: row;
   justify-content: space-between;
-  width: 1150px;
+  width: 500px;
 }
 
-.texto-progresso {
-  width: 1000px;
-  padding-top: 150px;
-  display: flex;
-  flex-flow: row;
-  list-style-type: none;
+.linha-continua {
+  border: none;
+  border-top: 2px solid #C6DDD7;
+  margin-top: 118px; 
+  margin-right: 0px;
+  width: 575px;
+  position: relative;
+  z-index: -1;
 }
 
-.texto-progresso li {
-  font-family: Catamaran, Arial, Helvetica, sans-serif;
-  font-size: 13px;
-  color: #3e3e3e;
-  padding-top: 8px;
-}
-
-.linha-horizontal1 {
-  position: absolute;
-  height: 0px;
-  border: dotted;
-  width: 180px;
-  margin-top: 120px;
-  margin-left: 220px;
-}
-.linha-horizontal2 {
-  position: absolute;
-  border: dotted;
-  width: 180px;
-  margin-top: 120px;
-  margin-left: 490px;
-}
-.linha-horizontal3 {
-  position: absolute;
-  border: dotted;
-  width: 180px;
-  margin-top: 120px;
-  margin-left: 760px;
-}
-.linha-horizontal4 {
-  position: absolute;
-  border: dotted;
-  width: 180px;
-  margin-top: 120px;
-  margin-left: 1035px;
-}
-
-#pet {
-  padding-left: 125px;
-}
-#profissional {
-  padding-left: 238px;
-}
-#agendamento {
-  padding-left: 200px;
-}
-#cadastro {
-  padding-left: 210px;
-}
-#confirmacao {
-  padding-left: 220px;
-}
 /*------------------------------*/
 
 /*Texto Central*/
@@ -138,17 +94,17 @@ body {
   position: absolute;
   display: flex;
   flex-flow: row;
-  width: 100%;
+  width: 400px;
   height: 100px;
-  margin: 800px 100px 0px 0px; 
+  margin: 800px 400px 400px 0px;
   background-color: #4a675a;
-  overflow-x: hidden 
+  overflow-x: hidden;
 }
 
-.botoes{
+.botoes {
   display: flex;
   flex-wrap: nowrap;
-  align-content: center;  
+  align-content: center;
 }
 
 #botao-cancelar {
