@@ -3,7 +3,7 @@
 FIGMA | HTML | CSS | JAVASCRIPT |
 
 Este é o primeiro projeto que codifico sozinha como aprendizagem, testando e evoluindo conforme vou aprendendo.
-O objetivo é partir de um protótipo inicial do Figma até a finalização cumprindo a função proposta do site para agendamento de consultas PET, preenchimento do cadastro, escolhendo o profissional e gerando o agendamento.
+O objetivo é partir de um protótipo inicial do Figma até a finalização, cumprindo a função proposta do site para agendamento de consultas PET, realizando as etapas de preenchimento de cadastro, escolhendo o profissional e gerando o agendamento.
 
 <img width="710" height="501" alt="image" src="https://github.com/user-attachments/assets/fbfe447f-4a13-42c7-8982-a612aee2eb66" />
 <img width="715" height="506" alt="image" src="https://github.com/user-attachments/assets/85509711-9801-4de7-9c12-6561dec2c148" />
