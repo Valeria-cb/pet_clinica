@@ -1,11 +1,13 @@
 body {
-  background: #eef1f0;
+  background: #dae4e0;
   overflow-y: hidden; /* retira a barra de rolagem vertical*/
-  max-width: 100%;    
+  margin: 0;
+  min-height: 100vh;
 }
+/*------------------------------*/
 
+/*Logo*/
 .menu-logo {
-  padding-left: 120px;
   padding-top: 20px;
 }
 
@@ -14,22 +16,28 @@ body {
   grid-column: 2;
   position: absolute;
 }
+/*------------------------------*/
+
+/*Container Principal*/
 
 .container {
   display: grid;
-  justify-content: center;
-  height: 100vh; /* Garante que o grid ocupe toda a altura da tela */
+  min-height: 100vh; /* Garante que o grid ocupe toda a altura da tela */
   /* 12 colunas iguais distribuindo o espaço restante */
   grid-template-columns: repeat(10, 135px);
   gap: 10px;
-  grid-template-rows: repeat(5, 165px);
+  grid-template-rows: repeat(5, 1fr);
   /* Centraliza o layout na tela do navegador */
   position: relative;
+  background-color: #eef1f0;
+  width: 1440px;
+  margin: 0 auto;
 }
+/*------------------------------*/
 
 /*Linha de progresso - Header*/
 
-.progresso{
+.progresso {
   display: flex;
   flex-wrap: wrap;
   width: 716px;
@@ -37,23 +45,20 @@ body {
 
 .ind-progresso {
   position: absolute;
-  padding-left: 160px;
   padding-top: 70px;
   display: flex;
   list-style-type: none;
   flex-flow: row;
   justify-content: space-between;
-  width: 500px;
+  width: 635px;
+  z-index: 1;
 }
 
 .linha-continua {
   border: none;
-  border-top: 2px solid #C6DDD7;
-  margin-top: 118px; 
-  margin-right: 0px;
-  width: 575px;
-  position: relative;
-  z-index: -1;
+  border-top: 2px solid #c0cec8;
+  margin-top: 118px;
+  width: 720px;
 }
 
 /*------------------------------*/
@@ -62,14 +67,13 @@ body {
 .texto-central {
   display: flex;
   flex-direction: column;
-  width: 1150px;
+  width: 500px;
   height: 10px;
-  align-items: center;
   font-family: Nunito, Arial, Helvetica, sans-serif;
   font-size: 18px;
   color: #3e3e3e;
   margin-top: 230px;
-  padding: 0 0 0 0;
+  padding: 150px 0 0 0;
 }
 
 .texto-central h1 {
@@ -78,51 +82,71 @@ body {
   padding-top: 20px;
 }
 
-.texto-central h4 {
-  font-family: Nunito, Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  color: #3e3e3e;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin: 0;
+.p1 {
+  font-family: Catamaran, Arial, Helvetica, sans-serif;
+  font-size: 14.5px;
+  color: #7a7a7a;
 }
+
 /*------------------------------*/
 
 /*Barra inferior de cotinuidade - Footer*/
-.botao-fluxo {
+footer {
   position: absolute;
   display: flex;
   flex-flow: row;
-  width: 400px;
-  height: 100px;
-  margin: 800px 400px 400px 0px;
+  width: 720px;
+  height: 150px;
+  margin: 840px 0px 0px 0px;
   background-color: #4a675a;
   overflow-x: hidden;
 }
 
-.botoes {
-  display: flex;
-  flex-wrap: nowrap;
-  align-content: center;
+#circulo-botao {
+  position: absolute;
+  z-index: 1;
+  background-color: #7a9488;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin: 12px 0 0 30px;
+}
+
+#circulo-botao2 {
+  position: absolute;
+  z-index: 1;
+  background-color: #7a9488;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin: 12px 0 0 500px;
+}
+
+#botao-continuar {
+  position: relative;
+  margin: 0;
+  background-color: transparent;
+  border-style: none;
+  font-family: Nunito, Arial, Helvetica, sans-serif;
+  color: #eef1f0;
+  font-weight: 800px;
+  font-size: 13px;
+  padding-left: 460px;
+  z-index: 1;
 }
 
 #botao-cancelar {
-  margin: 30 960 30 20;
-  padding: 0 10 0 10;
-  border-radius: 5px;
+  position: relative;
+  margin: 0;
+  background-color: transparent;
   border-style: none;
   font-family: Nunito, Arial, Helvetica, sans-serif;
-  color: #3e3e3e;
-  font-weight: 800;
+  color: #eef1f0;
+  font-weight: 800px;
+  font-size: 13px;
+  padding-left: 40px;
+  padding-top: 30px;
+  z-index: 1;
 }
-#botao-continuar {
-  margin: 30 960 30 0;
-  padding: 0 10 0 10;
-  border-radius: 5px;
-  border-style: none;
-  font-family: Nunito, Arial, Helvetica, sans-serif;
-  color: #3e3e3e;
-  font-weight: 800;
-}
+
 /*------------------------------*/

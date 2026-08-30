@@ -1,10 +1,11 @@
 body {
-  background-image: url("../img/gatoinicio3.svg");
-  background-position: 720px 0px;
-  background-size: 1440px 1040;
-  /* Não repete as imagens*/
+  background-size: 1110px 1100px;
   background-repeat: no-repeat;
+  margin-top: 0;
 }
+/*------------------------------*/
+
+/* Menu de navegação*/
 
 .menu-nav {
   display: flex;
@@ -13,7 +14,7 @@ body {
   justify-content: end;
   padding-top: 4px;
   position: relative;
-  padding-left: 50px;
+  padding-left: 35px;
 }
 
 .menu-nav ul {
@@ -34,22 +35,22 @@ body {
   padding-left: 10px;
   padding-right: 10px;
 }
+/*------------------------------*/
+
+/* Texto central de introdução ficou com as regras separadas do padrão global para ficar com altura diferente*/
 
 .introducao-container {
-  display: grid;
-  grid-template-columns: 425px;
-  grid-template-rows: 300px 50px 50px;
-  padding-left: 145px;
-  padding-top: 200px;
-  align-content: center;
-  grid-column: 1;
-  grid-row: 2;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 10px;
+  font-family: Nunito, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #3e3e3e;
+  margin-top: 180px;
+  padding: 10px 0 0 0;
 }
 
-.introducao-container img {
-  width: 1200px;
-  height: 1200px;
-}
 .introducao h1 {
   font-family: Nunito, Arial, Helvetica, sans-serif;
   font-size: 37px;
@@ -60,71 +61,76 @@ body {
 .p2 {
   font-family: Catamaran, Arial, Helvetica, sans-serif;
   font-size: 14.5px;
-  padding-bottom: 50px;
   color: #7a7a7a;
 }
 
 .p2 {
-  padding-top: 150px;
+  padding-top: 180px;
 }
+/*------------------------------*/
+
+/*Imagem principal - gatoinicial*/
+
+.img-inicial {
+  height: 100vh;
+  padding-left: 430px;
+}
+/*------------------------------*/
+
+/*Botão AGENDAR*/
 
 .botao-inicial {
-  background-color:transparent;    
-  color: white;
+  background-color: transparent;
+  color: #eef1f0;
   border: none;
   font-family: Nunito, Arial, Helvetica, sans-serif;
   font-size: 20px;
   position: absolute;
   z-index: 2;
-  margin-top: 35px;
-  margin-left: 20px;
+  margin-top: 60px;
+  margin-left: 15px;
 }
 
 #circulo-botao-frente {
   position: absolute;
   z-index: 1;
-  background-color: #4A675A;
+  background-color: #4a675a;
   width: 100px;
   height: 100px;
- border-radius: 50%;  
- margin-left: 5px;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-top: 25px;
 }
 
 #circulo-botao-fundo {
   position: absolute;
-  z-index: -1;
   background-color: #7a9488;
   width: 98px;
   height: 98px;
- border-radius: 50%;  
- margin-left: 45px;
+  border-radius: 50%;
+  margin-left: 40px;
+  margin-top: 25px;
 }
+/*------------------------------*/
 
-.contato {
-  display: flex;
-  flex-flow: row;
-  width: 600px;
-  height: 40px;
-  grid-row: 5;
-  padding-top: 130px;
-  padding-left: 105px;
-  justify-content: space-between;
-}
+/*Footer - Contatos*/
 
 .contato-itens ul {
   display: flex;
+  padding-left: 30px;
+  padding-top: 10px;
   list-style-type: none;
 }
 .contato-itens li {
-  font-family: Catamaran, Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  padding-left: 50px;
 }
 
 .contato-itens ul a {
   text-decoration: none;
-  font-family: Catamaran, Arial, Helvetica, sans-serif;
+  font-family: Nunito, Arial, Helvetica, sans-serif;
+  font-size: 14px;
   align-items: center;
-  padding-left: 5px;
-  padding-right: 50px;
-  color: #7a7a7a;
+  padding: 5px 50px 0 10px;
+  color: #eef1f0;
 }
+/*------------------------------*/
