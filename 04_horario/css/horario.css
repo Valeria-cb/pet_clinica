@@ -1,0 +1,28 @@
+/*Imagem lateral - imagem01*/
+
+.img-inicial {
+  height: 100vh;
+  padding-left: 430px;
+}
+/*------------------------------*/
+
+/*Barra de Horario*/
+
+.horario {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+  justify-content: end;
+  padding-top: 410px;
+  padding-left: 220px;
+}
+
+.hora {
+  border: none;
+  border-radius: 4px;
+  padding: 3px 10px 3px 10px;
+  background-color: #7a9488;
+  font-family: Nunito, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #eef1f0;
+}
