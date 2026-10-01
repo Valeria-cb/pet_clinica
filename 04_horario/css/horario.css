@@ -7,14 +7,25 @@
 /*------------------------------*/
 
 /*Barra de Horario*/
-
 .horario {
+  display: grid;
+  padding-top: 430px;
+  width: 480px;
+  justify-self: center;
+  padding-right: 230px;
+  position: relative;
+  z-index: 1;
+}
+
+.lista-hora {
   display: flex;
-  flex-wrap: nowrap;
-  gap: 10px;
-  justify-content: end;
-  padding-top: 410px;
-  padding-left: 220px;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.hora-container {
+  display: flex;
+  gap: 15px;
 }
 
 .hora {
@@ -25,4 +36,36 @@
   font-family: Nunito, Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: #eef1f0;
+}
+
+#seta-hora {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 580px;
+  position: absolute;
+  z-index: 2;
+  padding-top: 425px;
+  justify-self: center;
+  padding-right: 230px;
+}
+
+.seta-direita {
+  width: 0;
+  height: 0;
+  border-right: 15px solid transparent;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid #cedcd5;
+  border-radius: 5px;
+}
+
+.seta-esquerda {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid #cedcd5;
+  border-radius: 5px;
 }
